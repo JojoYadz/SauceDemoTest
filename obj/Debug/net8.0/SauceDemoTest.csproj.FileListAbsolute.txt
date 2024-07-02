@@ -19,3 +19,4 @@
 /Users/Pastel/Desktop/JEC/SauceDemoTest/obj/Debug/net8.0/SauceDemoTest.pdb
 /Users/Pastel/Desktop/JEC/SauceDemoTest/obj/Debug/net8.0/SauceDemoTest.genruntimeconfig.cache
 /Users/Pastel/Desktop/JEC/SauceDemoTest/obj/Debug/net8.0/ref/SauceDemoTest.dll
+/Users/Pastel/Desktop/JEC/SauceDemoTest/obj/Debug/net8.0/SauceDemoTest.sourcelink.json

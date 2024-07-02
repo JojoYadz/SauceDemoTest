@@ -7,11 +7,11 @@ class SauceDemoTest
 {
     static void Main()
     {
-        string chromeDriverPath = "/usr/local/bin/chromedriver"; 
         ChromeOptions options = new ChromeOptions();
+        options.AddArgument("--incognito");
 
-        ChromeDriverService service = ChromeDriverService.CreateDefaultService(chromeDriverPath);
-        WebDriver driver = new ChromeDriver(service, options);
+
+        IWebDriver driver = new ChromeDriver(options);
         WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
         try
